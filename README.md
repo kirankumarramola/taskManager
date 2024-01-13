@@ -1,75 +1,28 @@
 # task-manager-app
 
-This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
-[initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
+Certainly! Here's a simplified set of steps for creating a LoopBack project:
 
-## Install dependencies
+1.Install LoopBack CLI:
+    - npm install -g loopback-cli
+    - Installs LoopBack Command Line Interface globally.
+2.Create Project:
+	- lb4 app "projectName"
+	- Creates a LoopBack 4 application with the specified name.
+3.Add Model:
+	- lb4 model
+	- Adds a model or schema to your project. Follow the prompts to define properties.
+4.Add Data Source:
+	- lb4 datasource
+	- Configures a data source for your application, like a database connection.
+5.Add Repository:
+	- lb4 repository
+	- Creates a repository class for your model, handling data access.
+6.Add Controller:
+	- lb4 controller
+	- Generates a controller for your model, defining APIs and handling HTTP requests
+7.Execute:
+	- npm start
+	- http://localhost:3000/explorer access your APIs
+These steps provide a foundation for building APIs with LoopBack. Customize and extend your project based on specific needs.
 
-By default, dependencies were installed when this application was generated.
-Whenever dependencies in `package.json` are changed, run the following command:
 
-```sh
-npm install
-```
-
-To only install resolved dependencies in `package-lock.json`:
-
-```sh
-npm ci
-```
-
-## Run the application
-
-```sh
-npm start
-```
-
-You can also run `node .` to skip the build step.
-
-Open http://127.0.0.1:3000 in your browser.
-
-## Rebuild the project
-
-To incrementally build the project:
-
-```sh
-npm run build
-```
-
-To force a full build by cleaning up cached artifacts:
-
-```sh
-npm run rebuild
-```
-
-## Fix code style and formatting issues
-
-```sh
-npm run lint
-```
-
-To automatically fix such issues:
-
-```sh
-npm run lint:fix
-```
-
-## Other useful commands
-
-- `npm run migrate`: Migrate database schemas for models
-- `npm run openapi-spec`: Generate OpenAPI spec into a file
-- `npm run docker:build`: Build a Docker image for this application
-- `npm run docker:run`: Run this application inside a Docker container
-
-## Tests
-
-```sh
-npm test
-```
-
-## What's next
-
-Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to
-understand how you can continue to add features to this application.
-
-[![LoopBack](https://github.com/loopbackio/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
