@@ -3,7 +3,7 @@ Certainly! Here's a simplified set of steps for creating a LoopBack project:
 
 1.Install LoopBack CLI:
 
-    	npm install -g loopback-cli
+	npm install -g loopback-cli
 Installs LoopBack Command Line Interface globally.
 
 2.Create Project:
